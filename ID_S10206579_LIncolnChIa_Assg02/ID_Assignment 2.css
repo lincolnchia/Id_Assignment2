@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+header{
+    height: 70px;
+    background-color: black;
+}
+header p{
+    display: block;
+    margin: auto;
+    font-family: "SegoeUI Regular","Sans","serif";
+    font-size:24.5px;
+    padding:20px 20px;
+    color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+body{
+    font-family: 'Jura', sans-serif;
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.page{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.anime-card{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 50px;
+    width: 450px;
+    margin: 100px auto;
+    text-align: center;
+}
+.anime-card img{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+    color: white;
+    background-color: black;
+    padding: 5px 5px
+}
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
